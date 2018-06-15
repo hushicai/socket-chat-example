@@ -5,8 +5,7 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "DEBUG=socket.io* node server.js",
-    "server": "node server.js"
+    "start": "DEBUG=socket.io* node server.js"
   },
   "author": "hushicai <bluthcy@gmail.com> (http://hushicai.com)",
   "license": "MIT",
