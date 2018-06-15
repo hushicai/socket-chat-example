@@ -4,7 +4,9 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "DEBUG=socket.io* node server.js",
+    "server": "node server.js"
   },
   "author": "hushicai <bluthcy@gmail.com> (http://hushicai.com)",
   "license": "MIT",
@@ -12,5 +14,8 @@
     "express": "^4.15.2",
     "serve-static": "^1.13.2",
     "socket.io": "^2.1.1"
+  },
+  "devDependencies": {
+    "debug": "^3.1.0"
   }
 }
